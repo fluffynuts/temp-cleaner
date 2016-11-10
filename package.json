@@ -1,0 +1,18 @@
+{
+  "name": "temp-cleaner",
+  "version": "0.0.4",
+  "description": "cleans out what it can from temp folders",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node temp-cleaner.js"
+  },
+  "bin": {
+    "temp-cleaner": "./index.js"
+  },
+  "author": "Davyd McColl <davydm@gmail.com> (https://github.com/fluffynuts)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "rimraf": "^2.5.4"
+  }
+}
